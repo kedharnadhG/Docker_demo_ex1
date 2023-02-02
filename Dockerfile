@@ -16,6 +16,6 @@ RUN pip3 install -r requirements.txt
 # copying app.py file to the service-directory of the docker file
 COPY . ./
 
-EXPOSE 8080
+EXPOSE 8082
 
 ENTRYPOINT ["python3", "app.py"]
